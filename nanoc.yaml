@@ -1,5 +1,5 @@
 text_extensions: [ 'coffee', 'css', 'erb', 'haml', 'handlebars', 'hb', 'htm', 'html', 'js', 'less', 'markdown', 'md', 'ms', 'mustache', 'php', 'rb', 'sass', 'slim', 'scss', 'txt', 'xhtml', 'xml' ]
-output_dir: output
+output_dir: ../fet
 index_filenames: [ 'index.html' ]
 enable_output_diff: false
 prune:
