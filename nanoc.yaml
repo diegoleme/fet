@@ -19,7 +19,7 @@ data_sources:
 
 site_name: Front-End Talks
 site_slogan: Palestras
-base_url: http://diegoleme.github.io/fet
+base_url: /fet
 resize_images: [ '200x200' ]
 compass: false
 
