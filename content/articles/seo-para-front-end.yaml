@@ -1,0 +1,13 @@
+kind: article
+priority: 0.7
+title: SEO para Front-end
+excerpt:
+created_at: 2013-03-04
+author: Fábio Ricotta
+event: FrontIn Sampa 2012
+video:
+  type: youtube
+  id: gauN7UL2d2Y
+slide:
+  type: slideshare
+  id: 15030058

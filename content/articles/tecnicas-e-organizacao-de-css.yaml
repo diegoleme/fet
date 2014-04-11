@@ -1,0 +1,13 @@
+kind: article
+priority: 0.7
+title: Técnicas e organização de CSS
+excerpt: Nessa talk falarei sobre técnicas e organização de CSS, como podemos usar pré-processadores hoje em dia, variáveis, nesting e mixins. Diferentes técnicas de organização de CSS como SMACSS, BEM, DRY CSS e OOCSS. Normalize, grids semânticos, dicas de CSS e como utilizar boas práticas utilizadas pelos frameworks mais famosos (Bootstrap, Inuit, Pure, Foundation) para criar seu próprio framework.
+created_at: 2013-12-18
+author: Glauber Ramos
+event: FrontIn POA 2013
+video:
+  type: youtube
+  id: LmUISr5miy4
+slide:
+  type: speakerdeck
+  id: da31a3902d6b01313a99663820a88a30

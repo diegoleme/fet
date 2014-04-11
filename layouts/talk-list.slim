@@ -1,0 +1,18 @@
+ruby:
+  if @itemsList.nil?
+    @itemsList = sorted_articles
+  end
+
+div.talk-list
+   - @itemsList.each do |item|
+    section.talk-list__item
+      h1.talk-list__title
+        a.talk-list__title-link href="#{item.identifier[9..-2]}" #{item[:title]}
+      small.talk-list__details
+        | Por 
+        a href="/#{ toURL item[:author] }" #{ item[:author] } 
+        - unless item[:event].nil?
+          | no  
+          a href="/#{ toURL item[:event] }" #{ item[:event] } 
+      p.talk-list__description #{item[:excerpt]}
+      a.talk-list__watch href="#{item.identifier[9..-2]}" Assita

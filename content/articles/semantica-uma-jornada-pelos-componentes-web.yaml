@@ -1,0 +1,10 @@
+kind: article
+priority: 0.7
+title: "Semântica: uma jornada pelos componentes web"
+excerpt: Semântica e web componentes
+created_at: 2014-01-14
+author: Bernard de Luna
+event: FrontIn Sampa 2013
+video:
+  type: youtube
+  id: 57ZtsK0Y4vo

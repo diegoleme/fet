@@ -1,0 +1,24 @@
+{
+  "name": "fet",
+  "version": "0.0.0",
+  "authors": [
+    "Diego Leme <contato@diegoleme.com.br>"
+  ],
+  "description": "Front-End Talks",
+  "license": "MIT",
+  "homepage": "diegoleme.github.io/fet",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "module": "~1.0.0",
+    "jasmine": "~2.0.0",
+    "normalize-css": "~3.0.1"
+  }
+}

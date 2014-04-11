@@ -1,0 +1,15 @@
+.header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+
+  &__link {
+    color: #fff;
+  }
+
+  &__link:hover {
+    color: #eee;
+  }
+}

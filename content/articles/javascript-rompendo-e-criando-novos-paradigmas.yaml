@@ -1,0 +1,13 @@
+kind: article
+priority: 0.7
+title: "Javascript: rompendo e criando novos paradigmas"
+excerpt: "Esta foi a penúltima palestra da grade, infelizmente o cartão de memória começou a dar sinais de cansaço no início do vídeo, razão pela qual ele começa meio abruptamente, como se uma pequena parte introdutória tivesse sido cortada (e foi mesmo). Mas a palestra propriamente dita começa neste ponto mesmo, não se preocupem... ;)"
+created_at: 2013-03-18
+author: Miller Medeiros
+event: SampaJS 2013
+video:
+  type: youtube
+  id: iuGcH_IiM34
+slide:
+  type: html
+  id: http://slides.millermedeiros.com/sampajs/2013/#/

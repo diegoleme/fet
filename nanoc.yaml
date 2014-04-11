@@ -1,0 +1,30 @@
+text_extensions: [ 'coffee', 'css', 'erb', 'haml', 'handlebars', 'hb', 'htm', 'html', 'js', 'less', 'markdown', 'md', 'ms', 'mustache', 'php', 'rb', 'sass', 'slim', 'scss', 'txt', 'xhtml', 'xml' ]
+output_dir: output
+index_filenames: [ 'index.html' ]
+enable_output_diff: false
+prune:
+  auto_prune: true
+  exclude: [ '.git', '.hg', '.svn', 'CVS' ]
+data_sources:
+  -
+    type: filesystem_unified
+    items_root: /
+    layouts_root: /
+    allow_periods_in_identifiers: true
+  -
+    type: static
+    items_root: /static/
+    allow_periods_in_identifiers: true
+# resize_images: [ '200x200', '240x160', '800x250', '800x600' ]
+
+site_name: Front-End Talks
+site_slogan: Palestras
+base_url: http://diegoleme.github.io/fet
+resize_images: [ '200x200' ]
+compass: false
+
+  # 200 # Width given, height automagically selected to preserve aspect ratio.
+  # x200 # Height given, width automagically selected to preserve aspect ratio.
+  # 200x200 # Maximum values of height and width given, aspect ratio preserved.
+  # 200x200^ # Minimum values of width and height given, aspect ratio preserved.
+  # 200x200! # Width and height emphatically given, original aspect ratio ignored.

@@ -1,0 +1,9 @@
+kind: article
+priority: 0.7
+title: Criando uma arquitetura escalável de front-end do zero
+excerpt: Na hora de iniciar um projeto, sempre há dúvidas de quais soluções, bibliotecas e padrões de código serão utilizados, e também de como fazer com que o projeto cresça sem que o Front-end vire milhares de linhas de código aleatoriamente espalhadas por arquivos e pastas. Nessa palestra, mostramos como criamos nossas próprias soluções de arquitetura no JavaScript, HTML e CSS, produzindo códigos enxutos, desacoplados e testáveis.
+created_at: 2013-12-18
+author: Eduardo Shiota Yasuda
+video:
+  type: eventials
+  id: OTc2OzYyOTA=

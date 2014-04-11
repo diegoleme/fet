@@ -1,0 +1,13 @@
+kind: article
+priority: 0.7
+title: Organizando o JavaScript
+excerpt: "Nando Vieira fala sobre como organizar seu código JavaScript: organização de pastas, modularização e outros conceitos que podem lhe ajudar a escrever código JavaScript testável e de melhor qualidade."
+created_at: 2013-10-28
+author: Nando Vieira
+event: Webday 2013
+video:
+  type: youtube
+  id: x9vDemjWmZQ
+slide:
+  type: speakerdeck
+  id: 82ef7a70d3a70130469e6a0305c6d188

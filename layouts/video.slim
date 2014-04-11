@@ -1,0 +1,8 @@
+ruby:
+  @class = item[:slide].nil? ? 'talk__video--only' : 'talk__video'
+
+- if item[:video][:type] === 'youtube'
+  iframe class="#{@class}" src="//www.youtube.com/embed/#{item[:video][:id]}" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" scrolling="no"
+
+- if item[:video][:type] === 'eventials'
+  iframe class="#{@class}" src="http://www.eventials.com/talk-embed/#{item[:video][:id]}/" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" scrolling="no"

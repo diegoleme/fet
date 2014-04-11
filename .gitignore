@@ -1,0 +1,6 @@
+/.sass-cache/
+/bower_components/
+/output/
+/tmp/
+/crash.log
+/Gemfile.lock

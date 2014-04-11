@@ -1,0 +1,15 @@
+doctype 5
+html lang="pt-BR" class="no-js"
+
+  == render 'head'
+
+  body.l-default role="document" itemscope="" itemtype="http://schema.org/WebPage" itemref="copyright"
+
+  .full-content
+
+    == render 'header'
+    
+    main
+        == yield
+
+    script src="/js/end.js"

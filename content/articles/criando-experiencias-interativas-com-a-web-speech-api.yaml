@@ -1,0 +1,10 @@
+kind: article
+priority: 0.7
+title: Criando experiências interativas com a Web Speech API
+excerpt: "Disponibilizada em 2013 como padrão aberto no W3C, a API de reconhecimento de voz traz grandes oportunidades para criação de experiências interativas e, ao mesmo tempo, possibilidade de aplicativos e sites web focados em acessibilidade. Aprenda como implementá-la e veja exemplos de uso e boas práticas da Web Speech API."
+created_at: 2014-03-21
+author: Luis Leão
+event: DevFest São Paulo 2013
+video:
+  type: youtube
+  id: 4URJkGo2Je8

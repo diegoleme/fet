@@ -1,0 +1,10 @@
+kind: article
+priority: 0.7
+title: "Além do responsive design: a mudança de paradigma do design adaptativo e os múltiplos dispositivos"
+excerpt: Uma revolução aconteceu na Web e no mundo front-end com a explosão dos dispositivos móveis. Mais que ajustar seu site pra uma tela pequena com meia dúzia de media queries, o responsive web design traz reflexões importantes sobre o papel da Web como mídia adaptável, flexível, portável e democrática. Essa lightning talk discute a nova Web moderna, responsiva e adaptativa, seu papel hoje e como se preparar pro futuro.
+created_at: 2014-02-13
+author: Sergio Lopes
+event: FrontIn Sampa 2013
+video:
+  type: youtube
+  id: bJdFqCnxmVY

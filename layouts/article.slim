@@ -1,0 +1,32 @@
+doctype 5
+html lang="pt-BR" class="no-js"
+
+  == render 'head'
+
+  body
+    
+    == render 'header'
+    
+    main
+
+      section.talk
+
+        h1.talk__title #{@item[:title]}
+        p.talk__details
+          | Por 
+          a href="/#{ toURL @item[:author] }" #{ @item[:author] } 
+          - unless @item[:event].nil?
+            | no  
+            a href="/#{ toURL @item[:event] }" #{ @item[:event] } 
+        
+
+        - if item[:video]
+          == render 'video'
+        - if item[:slide]
+          == render 'slide'
+          
+        p.talk__description #{@item[:excerpt]}
+
+      #disqus_thread
+
+    script src="/js/end.js"

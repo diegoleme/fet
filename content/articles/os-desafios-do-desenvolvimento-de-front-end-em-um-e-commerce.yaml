@@ -1,0 +1,13 @@
+kind: article
+priority: 0.7
+title: Os desafios do desenvolvimento de front-end em um e-commerce
+excerpt: Eduardo Shiota Yasuda fala dos desafios no desenvolvimento do frontend para os sites de e-commerce baby.com.br e dinda.com.br.
+created_at: 2013-10-29
+author: Eduardo Shiota Yasuda
+event: Webday 2013
+video:
+  type: youtube
+  id: 5abzSBa33l4
+slide:
+  type: slideshare
+  id: 20886405

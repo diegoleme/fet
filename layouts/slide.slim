@@ -1,0 +1,8 @@
+- if item[:slide][:type] === 'speakerdeck'
+  iframe class="talk__slide" src="//speakerdeck.com/player/#{item[:slide][:id]}" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" scrolling="no"
+
+- if item[:slide][:type] === 'slideshare'
+  iframe class="talk__slide" src="//www.slideshare.net/slideshow/embed_code/#{item[:slide][:id]}" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" scrolling="no"
+  
+- if item[:slide][:type] === 'html'
+  iframe class="talk__slide" src="#{item[:slide][:id]}" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" scrolling="no"
