@@ -1,0 +1,10 @@
+kind: article
+priority: 0.7
+title: Rails ama seu Front-end
+excerpt: O Rails fornece diversas ferramentas para o desenvolvimento de aplicações web e, talvez, a área mais bem atendida seja a criação de interfaces web, através do extenso suporte a views, helpers e assets. Mas mesmo com tudo que o Rails provê, muitas aplicações acabam com uma camada de apresentação macarrônica, bem diferente do que costumamos ver no lado "Back end", pelo descaso e falta de atenção, ou pelo receio de se trabalhar nesse código de uma forma mais próxima a que usamos no resto das nossas aplicações. Nesta palestra você irá conhecer mais sobre como organizar sua lógica de apresentação em Presenters e Decorators sem abolir o uso de helpers, alguns truques com partials e como tirar maior proveito do JavaScript não obtrusivo do Rails e do Asset Pipeline para construir o seu Front end sem medo de ser feliz.
+created_at: 2013-08-29
+author: Lucas Mazza
+event: RubyConf 2013
+video:
+  type: eventials
+  id: OTc2OzM5ODE=

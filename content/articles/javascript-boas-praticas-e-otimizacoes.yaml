@@ -1,0 +1,13 @@
+kind: article
+priority: 0.7
+title: JavaScript - Boas práticas e otimizações
+excerpt: 'Para quem vai assistir a palestra gravada, comece depois dos 14 minutos e 32 segundos. Eu ainda não estava acostumado com a plataforma, e como entrei na transmissão um tempinho antes da hora marcada, ficou esse início mudo.
+
+Não irei "ensinar" ninguém a programar. Mas começarei do básico, passando por técnicas de otimização, explicando alguns Design Patterns, até construirmos códigos mais performáticos, sempre focando na linguagem JavaScript.
+
+Entendendo as diversas formas de programar em JavaScript e porquê devemos preferir uma maneira em detrimento de outra, melhoraremos a qualidade dos nossos códigos.'
+created_at: 2014-03-05
+author: William Bruno
+video:
+  type: eventials
+  id: NjUwMzM7NzgxNQ==
