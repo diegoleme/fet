@@ -13,6 +13,4 @@ div.talk-list
         a href="#{ config[:base_url] }/#{ toURL item[:author] }" #{ item[:author] } 
         - unless item[:event].nil?
           | no  
-          a href="#{ config[:base_url] }/#{ toURL item[:event] }" #{ item[:event] } 
-      p.talk-list__description #{item[:excerpt]}
-      a.talk-list__watch href="#{item.identifier[9..-2]}" Assita
+          a href="#{ config[:base_url] }/#{ toURL item[:event] }" #{ item[:event] }
