@@ -21,6 +21,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://diegoleme.github.io/fet/javascript-boas-praticas-e-otimizacoes/</loc>
+    <lastmod>2014-04-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://diegoleme.github.io/fet/javascript-rompendo-e-criando-novos-paradigmas/</loc>
     <lastmod>2014-04-11</lastmod>
     <priority>0.7</priority>
@@ -33,6 +38,11 @@
   <url>
     <loc>http://diegoleme.github.io/fet/os-desafios-do-desenvolvimento-de-front-end-em-um-e-commerce/</loc>
     <lastmod>2014-04-11</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://diegoleme.github.io/fet/rails-ama-seu-front-end/</loc>
+    <lastmod>2014-04-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
