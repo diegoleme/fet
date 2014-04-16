@@ -7,10 +7,10 @@ div.talk-list
    - @itemsList.each do |item|
     section.talk-list__item
       h1.talk-list__title
-        a.talk-list__title-link href="#{ config[:base_url] }#{item.identifier[9..-2]}" #{item[:title]}
+        a.talk-list__title-link href="#{ config[:relative_url] }#{item.identifier[9..-2]}" #{item[:title]}
       small.talk-list__details
         | Por 
-        a href="#{ config[:base_url] }/#{ toURL item[:author] }" #{ item[:author] } 
+        a href="#{ config[:relative_url] }/#{ toURL item[:author] }" #{ item[:author] } 
         - unless item[:event].nil?
           | no  
-          a href="#{ config[:base_url] }/#{ toURL item[:event] }" #{ item[:event] }
+          a href="#{ config[:relative_url] }/#{ toURL item[:event] }" #{ item[:event] }
